@@ -24,17 +24,53 @@
   </a>
 </p>
 
-## :information_source: O que é o Next Level Week?
+## O que é o Next Level Week?
 
 O NLW é uma semana prática com muito código, desafios, networking e um único objetivo: te levar para o próximo nível.
 Através do nosso método você vai aprender novas ferramentas, conhecer novas tecnologias e descobrir hacks que vão impulsionar a sua carreira.
 Um evento online e totalmente gratuito que vai te ajudar a dar o próximo passo na sua evolução como dev. ([NLW])
 
-## 💻 Projeto
+## Projeto
 
 O projeto Ecoleta consiste em um ambiente que une pessoas e empresas para a coleta responsável de lixo que necessita
 de um descarte correto, tais como lâmpadas, baterias, óleo de cozinha, lixo eletrônico, etc.
 
-Made with ♥ by Leonardo Souza :wave: [Entre em contato!](https://www.linkedin.com/in/leonardosouza97/)
+## Instalação
+
+Realize o clone deste repositório através do comando
+
+```
+git clone https://github.com/souzaleo97/nlw-ecoleta.git
+```
+
+Acesse a pasta backend e execute os comandos:
+
+```
+npm install
+npm run knex:migrate
+npm run knex:seed
+
+npm run dev
+```
+
+Acesse a pasta frontend e execute os comandos:
+
+```
+npm install
+
+npm start
+```
+
+Acesse a pasta mobile e execute os comandos:
+
+```
+npm install
+
+npm start
+```
+
+Made with ♥ by Leonardo Souza
+
+[Entre em contato!](https://www.linkedin.com/in/leonardosouza97/)
 
 [nlw]: https://nextlevelweek.com/
